@@ -3,4 +3,5 @@
 *.class
 build/
 node_modules/
+work/
 package-lock.json

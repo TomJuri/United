@@ -4,3 +4,10 @@ plugins {
 
 group 'de.tomjuri'
 version '1.0.0'
+
+task unitedStart(type: JavaExec) {
+    group 'united'
+    classpath sourceSets.main.runtimeClasspath
+    workingDir 'work'
+    main 'de.tomjuri.united.Main'
+}
