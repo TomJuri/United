@@ -1,7 +1,5 @@
-.gradle/
 .idea/
-*.class
-build/
 node_modules/
-work/
+src-tauri/Cargo.lock
+src-tauri/target
 package-lock.json

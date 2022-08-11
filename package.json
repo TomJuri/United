@@ -1,19 +1,13 @@
 {
-  "name": "united",
-  "version": "1.0.0",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TomJuri/United.git"
+  "name": "United",
+  "scripts": {
+    "tauri": "tauri"
   },
-  "keywords": [],
-  "author": "TomJuri",
-  "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://github.com/TomJuri/United/issues"
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2"
   },
-  "homepage": "https://github.com/TomJuri/United#readme",
   "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
     "tailwindcss": "^3.1.8"
   }
 }
